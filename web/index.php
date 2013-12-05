@@ -93,6 +93,7 @@ if (empty($_POST) || empty($_POST['to']) || empty($participants[$_POST['to']])
 </head>
 <body>
 <!--
+from http://joyeuxnoeljulie.fr/
        .     .                       *** **
                 !      .           ._*.                       .
              - -*- -       .-'-.   !  !     .
