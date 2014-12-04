@@ -125,6 +125,7 @@ from http://joyeuxnoeljulie.fr/
       <div class="col variable r280" style="right:290px">
         <?php if($messageSent): ?>
           <div class="message success">Votre message a bien été envoyé!</div>
+          <a href="/">Retour</a>
         <?php else: ?>
         <form method="post">
         <h3>1. Sélectionnez votre destinataire</h3>
