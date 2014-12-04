@@ -135,14 +135,14 @@ from http://joyeuxnoeljulie.fr/
           <?php endforeach ?>
         </select>
 
-        <h3>2. Saisissez votre message</h3>
-        <div class="input textarea">
-          <textarea required="required" name="message" rows="10" class="wp100"></textarea>
-        </div>
-
-        <h3>3. Facultatif : Saisissez le sujet du message</h3>
+        <h3>2. Facultatif : Saisissez le sujet du message</h3>
         <div class="input text">
           <input type="text" name="subject" class="wp100"/>
+        </div>
+
+        <h3>3. Saisissez votre message</h3>
+        <div class="input textarea">
+          <textarea required="required" name="message" rows="10" class="wp100"></textarea>
         </div>
 
         <h3>3. Envoyez-le !</h3>
