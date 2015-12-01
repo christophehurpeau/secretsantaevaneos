@@ -186,7 +186,9 @@ if (empty($_POST) || empty($_POST['to']) || empty($participants[$_POST['to']])
 
   $message = trim(htmlentities($_POST['message'],ENT_QUOTES,'UTF-8',true));
   $message = str_replace("\n\n",'</p><p>',$message);
-  $message = '<p>'.nl2br($message).'</p>';
+  $message = '<p>'.nl2br($message).'</p>'
+      .'<p style="font-size:9px">'
+        .' Sent by <a href="http://secretsantaevaneos.hurpeau.com/">http://secretsantaevaneos.hurpeau.com/</a>. Please do not respond.</p>';
   $mail->Body = '<html><body>'.$message.'</body></html>';
   $mail->AltBody = $message;
 
